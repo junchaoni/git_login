@@ -18,18 +18,21 @@ SOURCES += main.cpp\
     exam.cpp \
     passwdedit.cpp \
     register.cpp \
-    systemtrayicon.cpp
+    systemtrayicon.cpp \
+    dialog_admin.cpp
 
 HEADERS  += login.h \
     exam.h \
     passwdedit.h \
     register.h \
-    systemtrayicon.h
+    systemtrayicon.h \
+    dialog_admin.h
 
 FORMS    += login.ui \
     exam.ui \
     passwdedit.ui \
-    register.ui
+    register.ui \
+    dialog_admin.ui
 
 RESOURCES += \
     myqrc.qrc \

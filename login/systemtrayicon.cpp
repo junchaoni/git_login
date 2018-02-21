@@ -1,8 +1,8 @@
-#include "systemtrayicon.h"
+﻿#include "systemtrayicon.h"
 
 #include <QApplication>
 #include <QDebug>
-
+#pragma execution_character_set("utf-8")
 //SystemTrayIcon::SystemTrayIcon(QWidget *parent) : QWidget(parent)
 SystemTrayIcon::SystemTrayIcon(QStringList strList, QIcon icon, QWidget *parent) : QWidget(parent)
 {

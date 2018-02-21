@@ -72,6 +72,9 @@
      <pointsize>12</pointsize>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>IBeamCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true"/>
    </property>

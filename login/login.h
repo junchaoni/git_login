@@ -1,4 +1,4 @@
-#ifndef LOGIN_H
+﻿#ifndef LOGIN_H
 #define LOGIN_H
 
 #include <QWidget>
@@ -86,7 +86,7 @@ private:
     QPoint m_point;
     QTimer *timer1, *timer2;
     QStringList userPasswd;         //用户密码
-
+    QStringList admin_userPasswd;         //管理员用户密码
     QToolButton *minBtn;
     QToolButton *closeBbtn;
     QToolButton *setBtn;
@@ -106,7 +106,9 @@ private:
 
 public:
     UserInfoStu user_info_stu;
+    UserInfoStu admin_user_info_stu;
     QSqlDatabase db;
+    QSqlDatabase admin_db;
 };
 
 #endif // LOGIN_H

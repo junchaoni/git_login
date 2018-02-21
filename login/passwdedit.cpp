@@ -1,9 +1,9 @@
-#include "passwdedit.h"
+﻿#include "passwdedit.h"
 #include "ui_passwdedit.h"
 
 #include <QMessageBox>
 #include <QDebug>
-
+#pragma execution_character_set("utf-8")
 passwdEdit::passwdEdit(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::passwdEdit)

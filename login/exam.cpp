@@ -1,6 +1,6 @@
-#include "exam.h"
+﻿#include "exam.h"
 #include "ui_exam.h"
-
+#pragma execution_character_set("utf-8")
 Exam::Exam(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Exam)

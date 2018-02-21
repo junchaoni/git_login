@@ -1,7 +1,7 @@
-#include "register.h"
+﻿#include "register.h"
 #include "ui_register.h"
 //#include "login.h"
-
+#pragma execution_character_set("utf-8")
 Register::Register(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Register)
@@ -46,9 +46,8 @@ void Register::on_registerCheckButton_clicked()
 {
     pWidget->user_info_stu.userName = ui->lineEditName->text();
     pWidget->user_info_stu.passwd = ui->lineEditPassword->text();
-    pWidget->user_info_stu.email = ui->lineEditEmail->text();
-    qDebug() << "333:" << pWidget->user_info_stu.userName << pWidget->user_info_stu.passwd
-             << pWidget->user_info_stu.email;
+    //pWidget->user_info_stu.email = ui->lineEditEmail->text();
+    qDebug() << "333:" << pWidget->user_info_stu.userName << pWidget->user_info_stu.passwd;
     this->close();
 
 }
