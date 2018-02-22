@@ -15,7 +15,7 @@ Dialog_admin::~Dialog_admin()
 
 void Dialog_admin::on_pushButton_2_clicked()
 {
-    close();
+    this->close();
 }
 
 void Dialog_admin::setParent(Login *dialog)
